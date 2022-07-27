@@ -242,7 +242,7 @@ module Card =
                     |> Components.areaTypeTag
                     
                     span [ _class "card-timestamp" ] [
-                        "Latest data provided on "
+                        "Up to and including "
                         |> encodedText
                         
                         time [ _style "white-space: nowrap"; _datetime (getter this.sum "date")  ] [
